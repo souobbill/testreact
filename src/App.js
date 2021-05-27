@@ -1,4 +1,4 @@
-import logo from './logo.png';
+import logo from './assets/logo.png';
 import './App.css';
 
 function App() {
@@ -6,7 +6,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="WouriTech" />
-        <p>
+
+
+
+        <p className = "P">
            <code>WouriTech</code> L'Excellence.
         </p>
       </header>
